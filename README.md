@@ -67,7 +67,7 @@ Founder of [SnapSuite](https://www.snapsuite.io), [LeadScore AI](https://getlead
 
 ![Dwain's GitHub stats](https://github-readme-stats.vercel.app/api?username=dwainbrowne&show_icons=true&theme=transparent&hide_border=true)
 
-![Dwain's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dwainbrowne&theme=github-compact&hide_border=true)
+![Dwain's 2026 cumulative commit history](./commit-history-2026.svg)
 
 ## Public Tools and Useful Repos
 

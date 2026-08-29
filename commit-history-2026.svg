@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
+  <title id="title">2026 cumulative commit history for dwainbrowne. 5,575 authored commits through Aug 28, 2026.</title>
+  <desc id="description">A hand-drawn-style line chart with weekly points from January through Aug 28, 2026 and the remaining months visible through December.</desc>
+  <defs>
+    <filter id="rough" x="-3%" y="-3%" width="106%" height="106%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.13" numOctaves="1" seed="27" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.7" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    <linearGradient id="lineGlow" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff6b73" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#ff6b73" stop-opacity="0" />
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .hand { font-family: "Comic Sans MS", "Chalkboard SE", "Bradley Hand", "Segoe Print", cursive; }
+      .title { fill: #f0f6fc; font: 700 25px "Comic Sans MS", "Chalkboard SE", "Bradley Hand", "Segoe Print", cursive; }
+      .legend { fill: #f0f6fc; font: 600 17px "Comic Sans MS", "Chalkboard SE", "Bradley Hand", "Segoe Print", cursive; }
+      .tick, .month, .axis-label, .updated { fill: #8b949e; font-family: "Comic Sans MS", "Chalkboard SE", "Bradley Hand", "Segoe Print", cursive; }
+      .tick { font-size: 15px; }
+      .month { font-size: 15px; }
+      .axis-label { fill: #f0f6fc; font-size: 17px; font-weight: 600; }
+      .updated { font-size: 13px; }
+      .grid { stroke: #21262d; stroke-width: 1; stroke-dasharray: 3 8; }
+      .axis { stroke: #f0f6fc; stroke-width: 2.4; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="957" height="537" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="3" />
+
+  <g class="hand">
+    <circle cx="376" cy="39" r="13" fill="#21262d" />
+    <text x="376" y="45" fill="#f0f6fc" font-size="18" font-weight="700" text-anchor="middle">/</text>
+    <text x="397" y="47" class="title">Commit History</text>
+
+    <g transform="translate(118 88)">
+      <rect x="0" y="-22" width="290" height="40" rx="7" fill="none" stroke="#f0f6fc" stroke-width="2" filter="url(#rough)" />
+      <rect x="14" y="-7" width="12" height="12" rx="3" fill="#ff6b73" transform="rotate(-8 20 -1)" />
+      <text x="36" y="5" class="legend">dwainbrowne · 5,575 commits</text>
+    </g>
+
+    
+        <line x1="104" y1="444.0" x2="902" y2="444.0" class="grid" />
+        <text x="86" y="449" class="tick" text-anchor="end">0</text>
+        <line x1="104" y1="338.0" x2="902" y2="338.0" class="grid" />
+        <text x="86" y="343" class="tick" text-anchor="end">2K</text>
+        <line x1="104" y1="232.0" x2="902" y2="232.0" class="grid" />
+        <text x="86" y="237" class="tick" text-anchor="end">4K</text>
+        <line x1="104" y1="126.0" x2="902" y2="126.0" class="grid" />
+        <text x="86" y="131" class="tick" text-anchor="end">6K</text>
+    <line x1="104" y1="126" x2="104" y2="444" class="axis" filter="url(#rough)" />
+    <line x1="104" y1="444" x2="902" y2="444" class="axis" filter="url(#rough)" />
+    
+        <line x1="105.1" y1="444" x2="105.1" y2="452" class="axis" />
+        <text x="105.1" y="474" class="month" text-anchor="start">Jan</text>
+        <line x1="172.9" y1="444" x2="172.9" y2="452" class="axis" />
+        <text x="172.9" y="474" class="month" text-anchor="middle">Feb</text>
+        <line x1="234.1" y1="444" x2="234.1" y2="452" class="axis" />
+        <text x="234.1" y="474" class="month" text-anchor="middle">Mar</text>
+        <line x1="301.9" y1="444" x2="301.9" y2="452" class="axis" />
+        <text x="301.9" y="474" class="month" text-anchor="middle">Apr</text>
+        <line x1="367.4" y1="444" x2="367.4" y2="452" class="axis" />
+        <text x="367.4" y="474" class="month" text-anchor="middle">May</text>
+        <line x1="435.2" y1="444" x2="435.2" y2="452" class="axis" />
+        <text x="435.2" y="474" class="month" text-anchor="middle">Jun</text>
+        <line x1="500.8" y1="444" x2="500.8" y2="452" class="axis" />
+        <text x="500.8" y="474" class="month" text-anchor="middle">Jul</text>
+        <line x1="568.6" y1="444" x2="568.6" y2="452" class="axis" />
+        <text x="568.6" y="474" class="month" text-anchor="middle">Aug</text>
+        <line x1="636.4" y1="444" x2="636.4" y2="452" class="axis" />
+        <text x="636.4" y="474" class="month" text-anchor="middle">Sep</text>
+        <line x1="702.0" y1="444" x2="702.0" y2="452" class="axis" />
+        <text x="702.0" y="474" class="month" text-anchor="middle">Oct</text>
+        <line x1="769.7" y1="444" x2="769.7" y2="452" class="axis" />
+        <text x="769.7" y="474" class="month" text-anchor="middle">Nov</text>
+        <line x1="835.3" y1="444" x2="835.3" y2="452" class="axis" />
+        <text x="835.3" y="474" class="month" text-anchor="end">Dec</text>
+
+    <path d="M105.1,444.0 L111.7,444.0 L127.0,443.5 L142.3,440.7 L157.6,435.2 L172.9,425.8 L188.2,417.1 L203.5,411.1 L218.8,405.0 L234.1,397.4 L249.4,392.5 L264.7,390.3 L280.0,382.3 L295.3,375.5 L310.6,370.5 L325.9,364.1 L341.2,358.8 L356.5,351.0 L371.8,336.1 L387.1,321.7 L402.4,308.4 L417.7,306.0 L433.0,302.2 L448.3,293.5 L463.6,289.3 L479.0,285.7 L494.3,280.8 L509.6,265.3 L524.9,250.0 L540.2,232.6 L555.5,209.3 L570.8,189.9 L586.1,180.8 L601.4,176.5 L616.7,162.6 L627.6,148.5 L627.6,444 L104,444 Z" fill="url(#lineGlow)" />
+    <path d="M105.1,444.0 L111.7,444.0 L127.0,443.5 L142.3,440.7 L157.6,435.2 L172.9,425.8 L188.2,417.1 L203.5,411.1 L218.8,405.0 L234.1,397.4 L249.4,392.5 L264.7,390.3 L280.0,382.3 L295.3,375.5 L310.6,370.5 L325.9,364.1 L341.2,358.8 L356.5,351.0 L371.8,336.1 L387.1,321.7 L402.4,308.4 L417.7,306.0 L433.0,302.2 L448.3,293.5 L463.6,289.3 L479.0,285.7 L494.3,280.8 L509.6,265.3 L524.9,250.0 L540.2,232.6 L555.5,209.3 L570.8,189.9 L586.1,180.8 L601.4,176.5 L616.7,162.6 L627.6,148.5" fill="none" stroke="#ff6b73" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#rough)" />
+    <circle cx="111.7" cy="444.0" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="127.0" cy="443.5" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="142.3" cy="440.7" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="157.6" cy="435.2" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="172.9" cy="425.8" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="188.2" cy="417.1" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="203.5" cy="411.1" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="218.8" cy="405.0" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="234.1" cy="397.4" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="249.4" cy="392.5" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="264.7" cy="390.3" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="280.0" cy="382.3" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="295.3" cy="375.5" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="310.6" cy="370.5" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="325.9" cy="364.1" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="341.2" cy="358.8" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="356.5" cy="351.0" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="371.8" cy="336.1" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="387.1" cy="321.7" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="402.4" cy="308.4" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="417.7" cy="306.0" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="433.0" cy="302.2" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="448.3" cy="293.5" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="463.6" cy="289.3" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="479.0" cy="285.7" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="494.3" cy="280.8" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="509.6" cy="265.3" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="524.9" cy="250.0" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="540.2" cy="232.6" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="555.5" cy="209.3" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="570.8" cy="189.9" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="586.1" cy="180.8" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="601.4" cy="176.5" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="616.7" cy="162.6" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="627.6" cy="148.5" r="2.1" fill="#ff8a91" opacity="0.9" />
+    <circle cx="627.6" cy="148.5" r="5.5" fill="#ff8a91" filter="url(#softGlow)" />
+    <text x="645.6" y="134.5" fill="#ff8a91" font-size="17" font-weight="700" text-anchor="start">5,575</text>
+
+    <text x="503" y="508" class="axis-label" text-anchor="middle">2026</text>
+    <text x="28" y="285" class="axis-label" text-anchor="middle" transform="rotate(-90 28 285)">Cumulative Commits</text>
+    <text x="902" y="508" class="updated" text-anchor="end">Updated Aug 28, 2026</text>
+  </g>
+</svg>
