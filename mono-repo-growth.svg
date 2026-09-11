@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
-  <title id="title">2026 monthly gross source line additions for the SnapSuite mono-repo through Sep 11, 2026. The repository currently contains 2,326,531 non-blank source lines.</title>
+  <title id="title">2026 monthly gross source line additions for the SnapSuite mono-repo through Sep 11, 2026. The repository currently contains 2,326,863 non-blank source lines.</title>
   <desc id="description">A hand-drawn-style monthly bar chart. The current partial month is marked with an asterisk.</desc>
   <defs>
     <filter id="rough" x="-3%" y="-3%" width="106%" height="106%">
@@ -37,7 +37,7 @@
   </g>
   <g transform="translate(351 70)">
     <rect x="0" y="0" width="517" height="74" rx="9" fill="none" stroke="#ff6b73" stroke-width="2" filter="url(#rough)" />
-    <text x="18" y="31" class="kpi-value">2,326,531</text>
+    <text x="18" y="31" class="kpi-value">2,326,863</text>
     <text x="18" y="54" class="kpi-label">Current non-blank source lines · snapsuiteio/mono-repo</text>
   </g>
 
@@ -77,8 +77,8 @@
       <rect x="580.6" y="358.9" width="47.8" height="73.1" rx="5" fill="url(#barFill)" filter="url(#rough)" />
       <text x="604.5" y="348.9" class="value" text-anchor="middle">236K</text>
       <text x="604.5" y="462" class="month" text-anchor="middle">Aug</text>
-      <rect x="648.9" y="366.1" width="47.8" height="65.9" rx="5" fill="url(#barFill)" filter="url(#rough)" />
-      <text x="672.8" y="356.1" class="value" text-anchor="middle">213K*</text>
+      <rect x="648.9" y="366.0" width="47.8" height="66.0" rx="5" fill="url(#barFill)" filter="url(#rough)" />
+      <text x="672.8" y="356.0" class="value" text-anchor="middle">213K*</text>
       <text x="672.8" y="462" class="month" text-anchor="middle">Sep</text>
       <text x="741.2" y="462" class="month" text-anchor="middle">Oct</text>
       <text x="809.5" y="462" class="month" text-anchor="middle">Nov</text>
@@ -87,5 +87,5 @@
   <text x="28" y="308" class="axis-label" text-anchor="middle" transform="rotate(-90 28 308)">Gross Lines Added</text>
   <text x="92" y="500" class="note">* Current month is partial · generated, dependency, build, coverage and minified files excluded</text>
   <text x="912" y="500" class="updated" text-anchor="end">Updated Sep 11, 2026</text>
-  <text x="912" y="519" class="updated" text-anchor="end">d2e3b50b3</text>
+  <text x="912" y="519" class="updated" text-anchor="end">c34198665</text>
 </svg>
