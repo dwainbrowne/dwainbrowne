@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
+  <title id="title">2026 delivery performance for snapsuiteio/mono-repo through Sep 11, 2026: 566 merged pull requests, 349 closed issues, and 471 published releases.</title>
+  <desc id="description">A grouped monthly bar chart. Coral bars are merged pull requests, blue bars are closed issues, and green bars are published releases. The current partial month is marked with an asterisk.</desc>
+  <defs>
+    <filter id="rough" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.13" numOctaves="1" seed="31" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.15" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    <style>
+      .title { fill: #f0f6fc; font: 700 25px "Comic Sans MS", "Chalkboard SE", "Bradley Hand", "Segoe Print", cursive; }
+      .kpi-value, .axis-label { fill: #f0f6fc; font-family: "Comic Sans MS", "Chalkboard SE", "Bradley Hand", "Segoe Print", cursive; font-weight: 700; }
+      .kpi-value { font-size: 23px; }
+      .kpi-label, .tick, .month, .updated, .note { fill: #8b949e; font-family: "Comic Sans MS", "Chalkboard SE", "Bradley Hand", "Segoe Print", cursive; }
+      .kpi-label { font-size: 13px; }
+      .tick, .month { font-size: 14px; }
+      .axis-label { font-size: 16px; }
+      .updated, .note { font-size: 12px; }
+      .grid { stroke: #21262d; stroke-width: 1; stroke-dasharray: 3 8; }
+      .axis { stroke: #f0f6fc; stroke-width: 2.2; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="957" height="537" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="3" />
+  <circle cx="333" cy="39" r="13" fill="#21262d" />
+  <text x="333" y="45" fill="#f0f6fc" font-size="17" font-weight="700" text-anchor="middle">✓</text>
+  <text x="354" y="47" class="title">Monthly Delivery Performance</text>
+
+  <g transform="translate(86 70)">
+    <rect x="0" y="0" width="250" height="74" rx="9" fill="none" stroke="#ff6b73" stroke-width="2" filter="url(#rough)" />
+    <rect x="18" y="17" width="11" height="11" rx="3" fill="#ff6b73" />
+    <text x="39" y="31" class="kpi-value">566</text>
+    <text x="18" y="54" class="kpi-label">Pull requests merged</text>
+  </g>
+  <g transform="translate(355 70)">
+    <rect x="0" y="0" width="250" height="74" rx="9" fill="none" stroke="#58a6ff" stroke-width="2" filter="url(#rough)" />
+    <rect x="18" y="17" width="11" height="11" rx="3" fill="#58a6ff" />
+    <text x="39" y="31" class="kpi-value">349</text>
+    <text x="18" y="54" class="kpi-label">Issues closed</text>
+  </g>
+  <g transform="translate(624 70)">
+    <rect x="0" y="0" width="250" height="74" rx="9" fill="none" stroke="#3fb950" stroke-width="2" filter="url(#rough)" />
+    <rect x="18" y="17" width="11" height="11" rx="3" fill="#3fb950" />
+    <text x="39" y="31" class="kpi-value">471</text>
+    <text x="18" y="54" class="kpi-label">Releases published</text>
+  </g>
+
+  <line x1="86" y1="430.0" x2="914" y2="430.0" class="grid" />
+      <text x="72" y="435" class="tick" text-anchor="end">0</text>
+      <line x1="86" y1="382.0" x2="914" y2="382.0" class="grid" />
+      <text x="72" y="387" class="tick" text-anchor="end">50</text>
+      <line x1="86" y1="334.0" x2="914" y2="334.0" class="grid" />
+      <text x="72" y="339" class="tick" text-anchor="end">100</text>
+      <line x1="86" y1="286.0" x2="914" y2="286.0" class="grid" />
+      <text x="72" y="291" class="tick" text-anchor="end">150</text>
+      <line x1="86" y1="238.0" x2="914" y2="238.0" class="grid" />
+      <text x="72" y="243" class="tick" text-anchor="end">200</text>
+      <line x1="86" y1="190.0" x2="914" y2="190.0" class="grid" />
+      <text x="72" y="195" class="tick" text-anchor="end">250</text>
+  <line x1="86" y1="190" x2="86" y2="430" class="axis" filter="url(#rough)" />
+  <line x1="86" y1="430" x2="914" y2="430" class="axis" filter="url(#rough)" />
+  <rect x="92.9" y="403.1" width="17.1" height="26.9" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="112.0" y="430.0" width="17.1" height="0.0" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="131.0" y="430.0" width="17.1" height="0.0" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <text x="120.5" y="459" class="month" text-anchor="middle">Jan</text>
+      <rect x="161.9" y="383.0" width="17.1" height="47.0" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="181.0" y="430.0" width="17.1" height="0.0" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="200.0" y="430.0" width="17.1" height="0.0" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <text x="189.5" y="459" class="month" text-anchor="middle">Feb</text>
+      <rect x="230.9" y="403.1" width="17.1" height="26.9" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="250.0" y="430.0" width="17.1" height="0.0" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="269.0" y="430.0" width="17.1" height="0.0" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <text x="258.5" y="459" class="month" text-anchor="middle">Mar</text>
+      <rect x="299.9" y="363.8" width="17.1" height="66.2" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="319.0" y="423.3" width="17.1" height="6.7" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="338.0" y="244.7" width="17.1" height="185.3" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <text x="327.5" y="459" class="month" text-anchor="middle">Apr</text>
+      <rect x="368.9" y="362.8" width="17.1" height="67.2" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="388.0" y="390.6" width="17.1" height="39.4" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="407.0" y="388.7" width="17.1" height="41.3" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <text x="396.5" y="459" class="month" text-anchor="middle">May</text>
+      <rect x="437.9" y="355.1" width="17.1" height="74.9" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="457.0" y="385.8" width="17.1" height="44.2" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="476.0" y="359.0" width="17.1" height="71.0" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <text x="465.5" y="459" class="month" text-anchor="middle">Jun</text>
+      <rect x="506.9" y="251.4" width="17.1" height="178.6" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="526.0" y="288.9" width="17.1" height="141.1" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="545.0" y="326.3" width="17.1" height="103.7" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <text x="534.5" y="459" class="month" text-anchor="middle">Jul</text>
+      <rect x="575.9" y="399.3" width="17.1" height="30.7" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="595.0" y="361.8" width="17.1" height="68.2" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="614.0" y="400.2" width="17.1" height="29.8" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <text x="603.5" y="459" class="month" text-anchor="middle">Aug</text>
+      <rect x="644.9" y="405.0" width="17.1" height="25.0" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="664.0" y="394.5" width="17.1" height="35.5" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="683.0" y="408.9" width="17.1" height="21.1" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <text x="672.5" y="459" class="month" text-anchor="middle">Sep*</text>
+      <text x="741.5" y="459" class="month" text-anchor="middle">Oct</text>
+      <text x="810.5" y="459" class="month" text-anchor="middle">Nov</text>
+      <text x="879.5" y="459" class="month" text-anchor="middle">Dec</text>
+
+  <text x="28" y="310" class="axis-label" text-anchor="middle" transform="rotate(-90 28 310)">Completed Items</text>
+  <text x="86" y="500" class="note">* Current month is partial · GitHub timestamps · snapsuiteio/mono-repo</text>
+  <text x="914" y="500" class="updated" text-anchor="end">Updated Sep 11, 2026</text>
+</svg>

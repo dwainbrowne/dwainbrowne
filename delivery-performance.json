@@ -1,0 +1,89 @@
+{
+  "repository": "snapsuiteio/mono-repo",
+  "year": 2026,
+  "asOf": "2026-09-11",
+  "totals": {
+    "mergedPullRequests": 566,
+    "closedIssues": 349,
+    "publishedReleases": 471
+  },
+  "metric": {
+    "mergedPullRequests": "Pull requests whose GitHub merged timestamp falls in the month.",
+    "closedIssues": "Issues, excluding pull requests, whose GitHub closed timestamp falls in the month.",
+    "publishedReleases": "Non-draft GitHub releases whose published timestamp falls in the month."
+  },
+  "months": [
+    {
+      "month": "2026-01",
+      "label": "Jan",
+      "mergedPullRequests": 28,
+      "closedIssues": 0,
+      "publishedReleases": 0,
+      "partial": false
+    },
+    {
+      "month": "2026-02",
+      "label": "Feb",
+      "mergedPullRequests": 49,
+      "closedIssues": 0,
+      "publishedReleases": 0,
+      "partial": false
+    },
+    {
+      "month": "2026-03",
+      "label": "Mar",
+      "mergedPullRequests": 28,
+      "closedIssues": 0,
+      "publishedReleases": 0,
+      "partial": false
+    },
+    {
+      "month": "2026-04",
+      "label": "Apr",
+      "mergedPullRequests": 69,
+      "closedIssues": 7,
+      "publishedReleases": 193,
+      "partial": false
+    },
+    {
+      "month": "2026-05",
+      "label": "May",
+      "mergedPullRequests": 70,
+      "closedIssues": 41,
+      "publishedReleases": 43,
+      "partial": false
+    },
+    {
+      "month": "2026-06",
+      "label": "Jun",
+      "mergedPullRequests": 78,
+      "closedIssues": 46,
+      "publishedReleases": 74,
+      "partial": false
+    },
+    {
+      "month": "2026-07",
+      "label": "Jul",
+      "mergedPullRequests": 186,
+      "closedIssues": 147,
+      "publishedReleases": 108,
+      "partial": false
+    },
+    {
+      "month": "2026-08",
+      "label": "Aug",
+      "mergedPullRequests": 32,
+      "closedIssues": 71,
+      "publishedReleases": 31,
+      "partial": false
+    },
+    {
+      "month": "2026-09",
+      "label": "Sep",
+      "mergedPullRequests": 26,
+      "closedIssues": 37,
+      "publishedReleases": 22,
+      "partial": true
+    }
+  ]
+}
