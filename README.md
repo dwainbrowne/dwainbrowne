@@ -69,6 +69,14 @@ Founder of [SnapSuite](https://www.snapsuite.io), [LeadScore AI](https://getlead
 
 ![Dwain's 2026 cumulative commit history](./commit-history-2026.svg)
 
+### Repository Scale and Code Growth
+
+I manage 100 repositories. The chart below deliberately uses only the private SnapSuite mono-repo as the benchmark, so its scale is not blended with smaller projects.
+
+![SnapSuite mono-repo monthly source line additions](./mono-repo-growth.svg)
+
+This chart is refreshed weekly from the mono-repo's Git history. Each bar is the gross number of non-blank source lines added in non-merge commits for that month, grouped by commit author date. The highlighted total is the current number of non-blank lines in tracked source files. Generated output, dependencies, build artifacts, coverage files, and minified bundles are excluded; deletions are not subtracted from the monthly bars.
+
 ## Public Tools and Useful Repos
 
 These are the repos that best reflect what I want to make public: usable starter kits, practical utilities, and supporting tools.

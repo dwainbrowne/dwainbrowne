@@ -1,0 +1,71 @@
+{
+  "repository": "snapsuiteio/mono-repo",
+  "branch": "dev",
+  "commit": "60f11ce3d4e67e483033436dd01eb140d2fa2284",
+  "year": 2026,
+  "asOf": "2026-09-11",
+  "managedRepositories": 100,
+  "currentSourceLines": 2326146,
+  "trackedSourceFiles": 12921,
+  "metric": {
+    "monthly": "Gross added non-blank lines in non-merge commits, grouped by author date.",
+    "current": "Non-blank lines in tracked source files at the measured commit.",
+    "exclusions": "Generated, build, dependency, coverage, and minified files are excluded."
+  },
+  "months": [
+    {
+      "month": "2026-01",
+      "label": "Jan",
+      "additions": 54679,
+      "partial": false
+    },
+    {
+      "month": "2026-02",
+      "label": "Feb",
+      "additions": 161905,
+      "partial": false
+    },
+    {
+      "month": "2026-03",
+      "label": "Mar",
+      "additions": 158505,
+      "partial": false
+    },
+    {
+      "month": "2026-04",
+      "label": "Apr",
+      "additions": 196973,
+      "partial": false
+    },
+    {
+      "month": "2026-05",
+      "label": "May",
+      "additions": 653431,
+      "partial": false
+    },
+    {
+      "month": "2026-06",
+      "label": "Jun",
+      "additions": 158426,
+      "partial": false
+    },
+    {
+      "month": "2026-07",
+      "label": "Jul",
+      "additions": 590837,
+      "partial": false
+    },
+    {
+      "month": "2026-08",
+      "label": "Aug",
+      "additions": 235838,
+      "partial": false
+    },
+    {
+      "month": "2026-09",
+      "label": "Sep",
+      "additions": 212012,
+      "partial": true
+    }
+  ]
+}
