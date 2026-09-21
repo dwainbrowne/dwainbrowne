@@ -1,12 +1,12 @@
 {
   "repository": "snapsuiteio/mono-repo",
   "branch": "dev",
-  "commit": "b2d7755ebb44e607cadc6fa8187cef5ae680b68a",
+  "commit": "83a17932be22d12b70388d4d93b309e54a297669",
   "year": 2026,
-  "asOf": "2026-09-14",
+  "asOf": "2026-09-21",
   "managedRepositories": 100,
-  "currentSourceLines": 2348949,
-  "trackedSourceFiles": 13060,
+  "currentSourceLines": 2428111,
+  "trackedSourceFiles": 13498,
   "metric": {
     "monthly": "Gross added non-blank lines in non-merge commits, grouped by author date.",
     "current": "Non-blank lines in tracked source files at the measured commit.",
@@ -64,7 +64,7 @@
     {
       "month": "2026-09",
       "label": "Sep",
-      "additions": 239563,
+      "additions": 351963,
       "partial": true
     }
   ]
