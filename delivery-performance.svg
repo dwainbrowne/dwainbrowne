@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
-  <title id="title">2026 delivery performance for snapsuiteio/mono-repo through Oct 5, 2026: 633 merged pull requests, 392 closed issues, and 529 published releases.</title>
+  <title id="title">2026 delivery performance for snapsuiteio/mono-repo through Oct 12, 2026: 651 merged pull requests, 407 closed issues, and 542 published releases.</title>
   <desc id="description">A grouped monthly bar chart. Coral bars are merged pull requests, blue bars are closed issues, and green bars are published releases. The current partial month is marked with an asterisk.</desc>
   <defs>
     <filter id="rough" x="-4%" y="-4%" width="108%" height="108%">
@@ -28,19 +28,19 @@
   <g transform="translate(86 70)">
     <rect x="0" y="0" width="250" height="74" rx="9" fill="none" stroke="#ff6b73" stroke-width="2" filter="url(#rough)" />
     <rect x="18" y="17" width="11" height="11" rx="3" fill="#ff6b73" />
-    <text x="39" y="31" class="kpi-value">633</text>
+    <text x="39" y="31" class="kpi-value">651</text>
     <text x="18" y="54" class="kpi-label">Pull requests merged</text>
   </g>
   <g transform="translate(355 70)">
     <rect x="0" y="0" width="250" height="74" rx="9" fill="none" stroke="#58a6ff" stroke-width="2" filter="url(#rough)" />
     <rect x="18" y="17" width="11" height="11" rx="3" fill="#58a6ff" />
-    <text x="39" y="31" class="kpi-value">392</text>
+    <text x="39" y="31" class="kpi-value">407</text>
     <text x="18" y="54" class="kpi-label">Issues closed</text>
   </g>
   <g transform="translate(624 70)">
     <rect x="0" y="0" width="250" height="74" rx="9" fill="none" stroke="#3fb950" stroke-width="2" filter="url(#rough)" />
     <rect x="18" y="17" width="11" height="11" rx="3" fill="#3fb950" />
-    <text x="39" y="31" class="kpi-value">529</text>
+    <text x="39" y="31" class="kpi-value">542</text>
     <text x="18" y="54" class="kpi-label">Releases published</text>
   </g>
 
@@ -94,14 +94,14 @@
       <rect x="664.0" y="356.1" width="17.1" height="73.9" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
       <rect x="683.0" y="355.1" width="17.1" height="74.9" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
       <text x="672.5" y="459" class="month" text-anchor="middle">Sep</text>
-      <rect x="713.9" y="422.3" width="17.1" height="7.7" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
-      <rect x="733.0" y="426.2" width="17.1" height="3.8" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
-      <rect x="752.0" y="428.1" width="17.1" height="2.0" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
+      <rect x="713.9" y="405.0" width="17.1" height="25.0" rx="3" fill="#ff6b73" opacity="0.9" filter="url(#rough)" />
+      <rect x="733.0" y="411.8" width="17.1" height="18.2" rx="3" fill="#58a6ff" opacity="0.9" filter="url(#rough)" />
+      <rect x="752.0" y="415.6" width="17.1" height="14.4" rx="3" fill="#3fb950" opacity="0.9" filter="url(#rough)" />
       <text x="741.5" y="459" class="month" text-anchor="middle">Oct*</text>
       <text x="810.5" y="459" class="month" text-anchor="middle">Nov</text>
       <text x="879.5" y="459" class="month" text-anchor="middle">Dec</text>
 
   <text x="28" y="310" class="axis-label" text-anchor="middle" transform="rotate(-90 28 310)">Completed Items</text>
   <text x="86" y="500" class="note">* Current month is partial · GitHub timestamps · snapsuiteio/mono-repo</text>
-  <text x="914" y="500" class="updated" text-anchor="end">Updated Oct 5, 2026</text>
+  <text x="914" y="500" class="updated" text-anchor="end">Updated Oct 12, 2026</text>
 </svg>
