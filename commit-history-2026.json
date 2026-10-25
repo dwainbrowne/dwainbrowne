@@ -1,8 +1,8 @@
 {
   "username": "dwainbrowne",
   "year": 2026,
-  "asOf": "2026-10-24",
-  "totalCommits": 9705,
+  "asOf": "2026-10-25",
+  "totalCommits": 9892,
   "weeks": [
     {
       "start": "2026-01-01",
@@ -216,8 +216,8 @@
     },
     {
       "start": "2026-10-19",
-      "end": "2026-10-24",
-      "count": 880
+      "end": "2026-10-25",
+      "count": 1067
     }
   ]
 }
