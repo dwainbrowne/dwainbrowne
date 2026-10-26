@@ -1,11 +1,11 @@
 {
   "repository": "snapsuiteio/mono-repo",
   "year": 2026,
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-26",
   "totals": {
-    "mergedPullRequests": 658,
-    "closedIssues": 466,
-    "publishedReleases": 547
+    "mergedPullRequests": 684,
+    "closedIssues": 479,
+    "publishedReleases": 570
   },
   "metric": {
     "mergedPullRequests": "Pull requests whose GitHub merged timestamp falls in the month.",
@@ -88,9 +88,9 @@
     {
       "month": "2026-10",
       "label": "Oct",
-      "mergedPullRequests": 33,
-      "closedIssues": 78,
-      "publishedReleases": 20,
+      "mergedPullRequests": 59,
+      "closedIssues": 91,
+      "publishedReleases": 43,
       "partial": true
     }
   ]
